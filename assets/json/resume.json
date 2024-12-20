@@ -1,26 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Li Yayuan",
+    "label": "Master’s student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "liyayuan@smail.nju.edu.cn",
+    "url": "https://himuwu.com/resume/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "address": "Dorm 21st, 163 Xianlin Street, Qixia Distirct",
+      "postalCode": "210023",
+      "city": "Nanjing",
+      "countryCode": "CN",
+      "region": "Jiangsu"
+    }
   },
   "work": [
     {
