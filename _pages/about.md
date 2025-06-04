@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hi, I'm a Master's Students at Nanjing University, under the supervision of [Shi Yinghuan](https://cs.nju.edu.cn/shiyh/index.htm). To address the opportunities and challenges presented by large models (LMs), I mainly focus on Knowledge Transfer and Training-Free Adaptation.
+Hi, I'm a Master's Students at Nanjing University, under the supervision of [Shi Yinghuan](https://cs.nju.edu.cn/shiyh/index.htm). To address the opportunities and challenges presented by large models (LMs), I mainly focus on Knowledge Transfer and Training-Free Adaptation. In particular, I am interested in model merging, aiming to efficiently utilize pre-trained models in the community and recombine them in a “LEGO-like” fashion. These techs seeks to decouple and enhance different capabilities of models by modular reassembly.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
