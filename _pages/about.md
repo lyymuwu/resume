@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room 521</p>
+    <p>Room 530</p>
     <p>Dorm 21st, 163 Xianlin Street, Qixia Distirct</p>
     <p>Nanjing City, Jiangsu province</p>
 
