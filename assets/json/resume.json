@@ -5,7 +5,7 @@
     "image": "",
     "email": "liyayuan@smail.nju.edu.cn",
     "url": "https://himuwu.com/resume/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "Practitioner in the field of artificial intelligence.",
     "location": {
       "address": "Dorm 21st, 163 Xianlin Street, Qixia Distirct",
       "postalCode": "210023",
@@ -30,7 +30,8 @@
       "position": "volunteer",
       "url": "https://www.nju.edu.cn/info/3461/341221.htm",
       "startDate": "2023-09-24",
-      "endDate": "2023-09-24"
+      "endDate": "2023-09-24",
+      "summary": "Contributed to maintaining on-site order."
     },
     {
       "organization": "Academic Divisions of the Chinese Academy of Sciences",
@@ -67,7 +68,7 @@
       "title": "National Scholarship",
       "date": "2022-10-01",
       "awarder": "Ministry of Education of the People's Republic of China",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "url": "http://www.moe.gov.cn/jyb_xwfb/xw_zt/moe_357/jyzt_2015nztzl/2015_zt06/15zt06_gxzzzc/gxzz_bzks/201508/t20150810_199202.html",
       "summary": "The National Scholarship is awarded to outstanding students in China for their academic excellence."
     }
   ]
