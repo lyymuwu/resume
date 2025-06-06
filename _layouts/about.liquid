@@ -43,35 +43,128 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
+    {% comment %} <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
-    {% endif %}
+    {% endif %} {% endcomment %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
+    <!-- Awards & Honors -->
+    <h2>
+        <a style="color: inherit">Awards & Honors</a>
+    </h2>
+    
+
+    <h4> 
+        <a style="color: inherit">Student Awards</a>
+    </h4>
+    <div class="award-entry" style="margin-bottom: 1em;">
+      <p style="margin-bottom: 0.3em;">
+        <strong>Postgraduate Academic Scholarship</strong> <span style="font-size: 0.95em; color: #888;">(2023, 2024)</span>
+      </p>
+      <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
+        南京大学研究生学业奖学金一等(2023, 2024)
+      </p>
+    </div>
+    <div class="award-entry" style="margin-bottom: 1em;">
+      <p style="margin-bottom: 0.3em;">
+        <strong>National Scholarship</strong> <span style="font-size: 0.95em; color: #888;">(2022)</span>
+      </p>
+      <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
+        国家奖学金(2022)
+      </p>
+    </div>
+
+
+    <h4> 
+        <a style="color: inherit">Student Honors</a>
+    </h4>
+    <div class="award-entry" style="margin-bottom: 1em;">
+        <p style="margin-bottom: 0.3em;">
+            <strong>Excellence in Master's Assessment</strong> &mdash; <span style="color:#0056b3;">Nanjing University</span> <span style="font-size: 0.95em; color: #888;">(2024)</span>
+        </p>
+        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
+            南京大学硕士考核卓越
+        </p>
+    </div>
+    <div class="award-entry" style="margin-bottom: 1em;">
+        <p style="margin-bottom: 0.3em;">
+            <strong>Outstanding Graduate Student</strong> &mdash; <span style="color:#0056b3;">Nanjing University</span> <span style="font-size: 0.95em; color: #888;">(2024)</span>
+        </p>
+        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
+            南京大学优秀研究生
+        </p>
+    </div>
+    <div class="award-entry" style="margin-bottom: 1em;">
+        <p style="margin-bottom: 0.3em;">
+            <strong>Outstanding Student Leader</strong> &mdash; <span style="color:#0056b3;">Beijing Jiaotong University</span> <span style="font-size: 0.95em; color: #888;">(2022)</span>
+        </p>
+        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
+            北京交通大学优秀学生干部
+        </p>
+    </div>
+
+
+    <h4> 
+        <a style="color: inherit">Contests</a>
+    </h4>
+    <div class="award-entry" style="margin-bottom: 1em;">
+        <p style="margin-bottom: 0.3em;">
+        <strong>Finalist</strong> &mdash; <span style="color:#0056b3;">MCM</span> <span style="font-size: 0.95em; color: #888;">(2022)</span>
+        </p>
+        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
+        美国大学生数学建模竞赛特等奖提名
+        </p>
+    </div>
+    <div class="award-entry" style="margin-bottom: 1em;">
+        <p style="margin-bottom: 0.3em;">
+        <strong>National Third Prize</strong> &mdash; <span style="color:#0056b3;">MathorCup College Mathematical Modeling Challenge</span> <span style="font-size: 0.95em; color: #888;">(2022)</span>
+        </p>
+        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
+        MathorCup高校数学建模挑战赛全国三等奖
+        </p>
+    </div>
+    <div class="award-entry" style="margin-bottom: 1em;">
+        <p style="margin-bottom: 0.3em;">
+        <strong>Provincial Second Prize</strong> &mdash; <span style="color:#0056b3;">Blue Bridge Cup National Software and Information Technology Professional Talent Competition</span> <span style="font-size: 0.95em; color: #888;">(2022)</span>
+        </p>
+        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
+        蓝桥杯全国软件和信息技术专业人才大赛省级二等奖
+        </p>
+    </div>
+    <div class="award-entry" style="margin-bottom: 1em;">
+        <p style="margin-bottom: 0.3em;">
+        <strong>Provincial First Prize</strong> &mdash; <span style="color:#0056b3;">China Undergraduate Mathematical Contest in Modeling</span> <span style="font-size: 0.95em; color: #888;">(2021)</span>
+        </p>
+        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
+        中国大学生数学建模竞赛省级一等奖
+        </p>
+    </div>
+    
+
+    {% comment %} <!-- Social -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
-    {% endif %}
+    {% endif %} {% endcomment %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
