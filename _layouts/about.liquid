@@ -5,8 +5,7 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -22,15 +21,10 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -40,7 +34,6 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
@@ -48,15 +41,6 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    {% comment %} <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %} {% endcomment %}
-
-    <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
@@ -64,115 +48,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Awards & Honors -->
-    <h2>
-        <a style="color: inherit">Awards & Honors</a>
-    </h2>
-    
-
-    <h4> 
-        <a style="color: inherit">Student Awards</a>
-    </h4>
-    <div class="award-entry" style="margin-bottom: 1em;">
-      <p style="margin-bottom: 0.3em;">
-        <strong>Postgraduate Academic Scholarship</strong> <span style="font-size: 0.95em; color: #888;">(2023, 2024)</span>
-      </p>
-      <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-        南京大学研究生学业奖学金一等
-      </p>
-    </div>
-    <div class="award-entry" style="margin-bottom: 1em;">
-      <p style="margin-bottom: 0.3em;">
-        <strong>National Scholarship</strong> <span style="font-size: 0.95em; color: #888;">(2022)</span>
-      </p>
-      <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-        国家奖学金
-      </p>
-    </div>
-
-
-    <h4> 
-        <a style="color: inherit">Student Honors</a>
-    </h4>
-    <div class="award-entry" style="margin-bottom: 1em;">
-        <p style="margin-bottom: 0.3em;">
-            <strong>Excellence in Master's Assessment</strong> &mdash; <span style="color:#0056b3;">Nanjing University</span> <span style="font-size: 0.95em; color: #888;">(2024)</span>
-        </p>
-        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-            南京大学硕士考核卓越
-        </p>
-    </div>
-    <div class="award-entry" style="margin-bottom: 1em;">
-        <p style="margin-bottom: 0.3em;">
-            <strong>Outstanding Graduate Student</strong> &mdash; <span style="color:#0056b3;">Nanjing University</span> <span style="font-size: 0.95em; color: #888;">(2024)</span>
-        </p>
-        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-            南京大学优秀研究生
-        </p>
-    </div>
-    <div class="award-entry" style="margin-bottom: 1em;">
-        <p style="margin-bottom: 0.3em;">
-            <strong>Outstanding Graduate</strong> &mdash; <span style="color:#0056b3;">Beijing</span> <span style="font-size: 0.95em; color: #888;">(2023)</span>
-        </p>
-        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-            北京市优秀毕业生
-        </p>
-    </div>
-    <div class="award-entry" style="margin-bottom: 1em;">
-        <p style="margin-bottom: 0.3em;">
-            <strong>Outstanding Student Leader</strong> &mdash; <span style="color:#0056b3;">Beijing Jiaotong University</span> <span style="font-size: 0.95em; color: #888;">(2022)</span>
-        </p>
-        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-            北京交通大学优秀学生干部
-        </p>
-    </div>
-
-
-    <h4> 
-        <a style="color: inherit">Contests</a>
-    </h4>
-    <div class="award-entry" style="margin-bottom: 1em;">
-        <p style="margin-bottom: 0.3em;">
-        <strong>Finalist</strong> &mdash; <span style="color:#0056b3;">MCM</span> <span style="font-size: 0.95em; color: #888;">(2022)</span>
-        </p>
-        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-        美国大学生数学建模竞赛特等奖提名
-        </p>
-    </div>
-    <div class="award-entry" style="margin-bottom: 1em;">
-        <p style="margin-bottom: 0.3em;">
-        <strong>National Third Prize</strong> &mdash; <span style="color:#0056b3;">MathorCup College Mathematical Modeling Challenge</span> <span style="font-size: 0.95em; color: #888;">(2022)</span>
-        </p>
-        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-        MathorCup高校数学建模挑战赛全国三等奖
-        </p>
-    </div>
-    <div class="award-entry" style="margin-bottom: 1em;">
-        <p style="margin-bottom: 0.3em;">
-        <strong>Provincial Second Prize</strong> &mdash; <span style="color:#0056b3;">Blue Bridge Cup National Software and Information Technology Professional Talent Competition</span> <span style="font-size: 0.95em; color: #888;">(2022)</span>
-        </p>
-        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-        蓝桥杯全国软件和信息技术专业人才大赛省级二等奖
-        </p>
-    </div>
-    <div class="award-entry" style="margin-bottom: 1em;">
-        <p style="margin-bottom: 0.3em;">
-        <strong>Provincial First Prize</strong> &mdash; <span style="color:#0056b3;">China Undergraduate Mathematical Contest in Modeling</span> <span style="font-size: 0.95em; color: #888;">(2021)</span>
-        </p>
-        <p style="color: #666; margin-left: 1em; font-style: italic; margin-top: 0;">
-        中国大学生数学建模竞赛省级一等奖
-        </p>
-    </div>
-    
-
-    {% comment %} <!-- Social -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
+        {% if site.contact_note %}
+          <div class="contact-note">{{ site.contact_note }}</div>
+        {% endif %}
       </div>
-    {% endif %} {% endcomment %}
+    {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}

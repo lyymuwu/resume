@@ -1,8 +1,8 @@
 ---
 ---
-<div class="row">
-  {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+<div class="row pub-item-row">
+  {% if true %}
+    <div class="col-auto abbr pub-thumb-col">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -34,7 +34,7 @@
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "200px"
+            sizes = "96px"
             class="preview z-depth-1 rounded"
             zoomable=true
             alt=entry.preview
@@ -45,7 +45,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="col pub-text-col">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -56,11 +56,19 @@
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
+      {% assign entry_author_limit = entry.author_limit | plus: 0 %}
+      {% if entry_author_limit > 0 and author_array_size > entry_author_limit %}
+        {% assign author_array_limit = entry_author_limit %}
+      {% endif %}
 
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {% assign author_is_mmr_self = false %}
+        {% if entry.key == 'zhang2025social' and author.first == 'YY' and author_last_name == 'Li' %}
+          {% assign author_is_mmr_self = true %}
+        {% endif %}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -81,7 +89,12 @@
           {% if forloop.first == false %},&nbsp;{% endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
-        {%- if author_is_self -%}
+        {%- if author_is_mmr_self -%}
+          <u>
+            {{- author.first }}
+            {{ author_last_html -}}
+          </u>
+        {%- elsif author_is_self -%}
           <em>
             {{- author.first }}
             {{ author_last_html -}}
@@ -184,6 +197,10 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% assign has_github_code = false %}
+      {% if entry.code and entry.code contains 'github.com' %}
+        {% assign has_github_code = true %}
+      {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
@@ -215,6 +232,15 @@
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}
       {% endif %}
+      {% if has_github_code %}
+        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">GitHub</a>
+      {% endif %}
+      {% if entry.wechat %}
+        <a href="{{ entry.wechat }}" class="btn btn-sm z-depth-0" role="button">WeChat</a>
+      {% endif %}
+      {% if entry.zhihu %}
+        <a href="{{ entry.zhihu }}" class="btn btn-sm z-depth-0" role="button">Zhihu</a>
+      {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
           <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
@@ -230,7 +256,7 @@
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
-      {% if entry.code %}
+      {% if entry.code and has_github_code == false %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
       {% if entry.poster %}
