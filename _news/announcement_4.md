@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our collaborative paper with Gulou Hospital team was accepted by *Military Medical Research* (SCI Q1, IF 22.9), where I am a co-first author.
+Our collaborative paper with Gulou Hospital team was accepted by _Military Medical Research_ (SCI Q1, IF 22.9), where I am a co-first author.
