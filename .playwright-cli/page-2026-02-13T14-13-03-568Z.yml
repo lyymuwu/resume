@@ -1,0 +1,91 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link "Yayuan Li (李雅元)" [ref=e4] [cursor=pointer]:
+          - /url: /resume/
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "about" [ref=e8] [cursor=pointer]:
+              - /url: /resume/
+          - listitem [ref=e9]:
+            - link "publications (current)" [ref=e10] [cursor=pointer]:
+              - /url: /resume/publications/
+              - text: publications
+              - generic [ref=e11]: (current)
+          - listitem [ref=e12]:
+            - link "cv" [ref=e13] [cursor=pointer]:
+              - /url: /resume/cv/
+          - listitem [ref=e14]:
+            - button "submenus (current)" [ref=e15] [cursor=pointer]:
+              - text: submenus
+              - generic [ref=e16]: (current)
+          - listitem [ref=e17]:
+            - button "" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+              - text:  
+    - progressbar [ref=e20]
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - heading "publications" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Selected and full publication list.
+      - article [ref=e26]:
+        - generic [ref=e27]:
+          - heading "2026" [level=2] [ref=e28]
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - generic [ref=e32]:
+                - generic [ref=e33]: "When Shared Knowledge Hurts: Spectral Over-Accumulation in Model Merging"
+                - generic [ref=e34]:
+                  - emphasis [ref=e35]: Yayuan Li
+                  - text: ", Zhen Peng, Jing Zhang, and 3 more authors"
+                - generic [ref=e36]:
+                  - emphasis [ref=e37]: arXiv preprint arXiv:2602.05536
+                  - text: ", 2026"
+                - generic [ref=e38]:
+                  - button "HTML" [ref=e39] [cursor=pointer]
+                  - button "PDF" [ref=e40] [cursor=pointer]
+          - heading "2025" [level=2] [ref=e41]
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - generic [ref=e45]:
+                - generic [ref=e46]: "Text and Image Are Mutually Beneficial: Enhancing Training-Free Few-Shot Classification with CLIP"
+                - generic [ref=e47]:
+                  - emphasis [ref=e48]: Yayuan Li
+                  - text: ", Jintao Guo, Lei Qi, and 2 more authors"
+                - generic [ref=e49]:
+                  - emphasis [ref=e50]: Proceedings of the AAAI Conference on Artificial Intelligence
+                  - text: ", Apr 2025"
+                - generic [ref=e51]:
+                  - button "HTML" [ref=e52] [cursor=pointer]
+                  - button "PDF" [ref=e53] [cursor=pointer]
+            - listitem [ref=e54]:
+              - generic [ref=e56]:
+                - generic [ref=e57]: "MAGIC: Achieving Superior Model Merging via Magnitude Calibration"
+                - generic [ref=e58]:
+                  - emphasis [ref=e59]: Yayuan Li
+                  - text: ", Jing Zhang, Jintao Guo, and 4 more authors"
+                - generic [ref=e60]:
+                  - emphasis [ref=e61]: arXiv preprint arXiv:2512.19320
+                  - text: ", Apr 2025"
+                - generic [ref=e62]:
+                  - button "HTML" [ref=e63] [cursor=pointer]
+                  - button "PDF" [ref=e64] [cursor=pointer]
+            - listitem [ref=e65]:
+              - generic [ref=e67]:
+                - generic [ref=e68]: Social jetlag elicits fatty liver via perturbed circulating prolactin rhythm-mediated circadian remodeling of hepatic lipid metabolism
+                - generic [ref=e69]: PZ Zhang, YH Shi, YX Guo, and 6 more authors
+                - generic [ref=e70]:
+                  - emphasis [ref=e71]: Military Medical Research
+                  - text: ", Apr 2025"
+  - contentinfo [ref=e72]:
+    - generic [ref=e73]:
+      - text: © Copyright 2026 Yayuan Li (李雅元). Powered by
+      - link "Jekyll" [ref=e74] [cursor=pointer]:
+        - /url: https://jekyllrb.com/
+      - text: with
+      - link "al-folio" [ref=e75] [cursor=pointer]:
+        - /url: https://github.com/alshedivat/al-folio
+      - text: theme.
+  - img [ref=e77] [cursor=pointer]

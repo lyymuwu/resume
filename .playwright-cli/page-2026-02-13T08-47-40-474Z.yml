@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - button "Toggle navigation" [ref=e5]: Toggle navigation
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "about (current)" [ref=e9] [cursor=pointer]:
+              - /url: /resume/
+          - listitem [ref=e10]:
+            - link "publications" [ref=e11] [cursor=pointer]:
+              - /url: /resume/publications/
+          - listitem [ref=e12]:
+            - link "cv" [ref=e13] [cursor=pointer]:
+              - /url: /resume/cv/
+          - listitem [ref=e14]:
+            - button "submenus" [ref=e15] [cursor=pointer]
+            - generic "submenus" [ref=e16]:
+              - link "publications" [ref=e17] [cursor=pointer]:
+                - /url: /resume/publications/
+              - link "projects" [ref=e18] [cursor=pointer]:
+                - /url: /resume/projects/
+              - link "blog" [ref=e19] [cursor=pointer]:
+                - /url: /resume/blog/
+          - listitem [ref=e20]:
+            - button "Change theme" [ref=e21]
+    - progressbar [ref=e22]
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - heading "Yayuan Li (李雅元)" [level=1] [ref=e26]
+        - paragraph [ref=e27]: Master's Student @ Nanjing University | Knowledge Transfer & Training-Free Adaptation
+      - article [ref=e28]:
+        - generic [ref=e29]:
+          - figure [ref=e30]:
+            - img "prof_pic.jpg" [ref=e32]
+          - generic [ref=e33]:
+            - paragraph [ref=e34]: School of Computer Science, Nanjing University
+            - paragraph [ref=e35]: Nanjing, Jiangsu, China
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - paragraph [ref=e38]: Research Profile
+            - heading "Hi, I am Yayuan Li." [level=2] [ref=e39]
+            - paragraph [ref=e40]:
+              - text: I am a Master's student at Nanjing University, advised by
+              - link "Prof. Yinghuan Shi" [ref=e41] [cursor=pointer]:
+                - /url: https://cs.nju.edu.cn/shiyh/index.htm
+              - text: . My work focuses on knowledge transfer and training-free adaptation for large models, with a particular interest in model merging and modular capability composition.
+            - generic [ref=e42]: Model Merging Knowledge Transfer Training-Free Adaptation Multimodal Learning
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - heading "Research Interests" [level=3] [ref=e45]
+              - list [ref=e46]:
+                - listitem [ref=e47]: Efficient reuse and composition of pretrained models.
+                - listitem [ref=e48]: Cross-modal transfer between language and vision representations.
+                - listitem [ref=e49]: Robust training-free methods for few-shot generalization.
+            - generic [ref=e50]:
+              - heading "Highlights" [level=3] [ref=e51]
+              - list [ref=e52]:
+                - listitem [ref=e53]: AAAI 2025 publication and two new model-merging preprints (2025-2026).
+                - listitem [ref=e54]: National Scholarship (2022).
+                - listitem [ref=e55]: Outstanding Graduate Student, Nanjing University (2024).
+                - listitem [ref=e56]: Finalist, MCM (2022).
+          - generic [ref=e57]:
+            - heading "Awards & Honors" [level=3] [ref=e58]
+            - generic [ref=e59]:
+              - text: "2024"
+              - generic [ref=e60]: Outstanding Graduate Student, Nanjing University
+            - generic [ref=e61]:
+              - text: "2024"
+              - generic [ref=e62]: Excellence in Master's Assessment, Nanjing University
+            - generic [ref=e63]:
+              - text: "2023"
+              - generic [ref=e64]: Postgraduate Academic Scholarship (First Class)
+            - generic [ref=e65]:
+              - text: "2022"
+              - generic [ref=e66]: National Scholarship
+        - heading "News" [level=2] [ref=e67]:
+          - link "News" [ref=e68] [cursor=pointer]:
+            - /url: /resume/news/
+        - table [ref=e71]:
+          - rowgroup [ref=e72]:
+            - 'row "Dec 21, 2024 :sparkles: Our paper about CLIP-based FSL is accepted by AAAI25." [ref=e73]':
+              - rowheader "Dec 21, 2024" [ref=e74]
+              - 'cell ":sparkles: Our paper about CLIP-based FSL is accepted by AAAI25." [ref=e75]':
+                - img ":sparkles:" [ref=e76]
+                - text: Our paper about CLIP-based FSL is accepted by AAAI25.
+            - row "Jun 02, 2023 I was honored as an Outstanding Graduate of Beijing." [ref=e77]:
+              - rowheader "Jun 02, 2023" [ref=e78]
+              - cell "I was honored as an Outstanding Graduate of Beijing." [ref=e79]
+            - row "Dec 02, 2022 I have been awarded the National Scholarship." [ref=e80]:
+              - rowheader "Dec 02, 2022" [ref=e81]
+              - cell "I have been awarded the National Scholarship." [ref=e82]
+        - heading "Selected Publications" [level=2] [ref=e83]:
+          - link "Selected Publications" [ref=e84] [cursor=pointer]:
+            - /url: /resume/publications/
+        - list [ref=e86]:
+          - listitem [ref=e87]:
+            - generic [ref=e89]:
+              - generic [ref=e90]: "Text and Image Are Mutually Beneficial: Enhancing Training-Free Few-Shot Classification with CLIP"
+              - generic [ref=e91]:
+                - emphasis [ref=e92]: Yayuan Li
+                - text: ", Jintao Guo, Lei Qi, and 2 more authors"
+              - generic [ref=e93]:
+                - emphasis [ref=e94]: Proceedings of the AAAI Conference on Artificial Intelligence
+                - text: ", Apr 2025"
+              - generic [ref=e95]:
+                - button "HTML" [ref=e96] [cursor=pointer]
+                - button "PDF" [ref=e97] [cursor=pointer]
+          - listitem [ref=e98]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: "When Shared Knowledge Hurts: Spectral Over-Accumulation in Model Merging"
+              - generic [ref=e102]:
+                - emphasis [ref=e103]: Yayuan Li
+                - text: ", Zhen Peng, Jing Zhang, and 3 more authors"
+              - generic [ref=e104]:
+                - emphasis [ref=e105]: arXiv preprint arXiv:2602.05536
+                - text: ", Apr 2026"
+              - generic [ref=e106]:
+                - button "HTML" [ref=e107] [cursor=pointer]
+                - button "PDF" [ref=e108] [cursor=pointer]
+        - generic [ref=e109]:
+          - generic:
+            - link "email":
+              - /url: "mailto:"
+            - link "GitHub":
+              - /url: https://github.com/lyymuwu
+            - link "RSS Feed":
+              - /url: /resume/feed.xml
+            - link "Google Scholar":
+              - /url: https://scholar.google.com/citations?user=5C-40K4AAAAJ
+          - generic [ref=e110]: Open to research collaboration and internship opportunities.
+  - contentinfo [ref=e111]:
+    - generic [ref=e112]:
+      - text: © Copyright 2026 Yayuan Li (李雅元). Powered by
+      - link "Jekyll" [ref=e113] [cursor=pointer]:
+        - /url: https://jekyllrb.com/
+      - text: with
+      - link "al-folio" [ref=e114] [cursor=pointer]:
+        - /url: https://github.com/alshedivat/al-folio
+      - text: theme.

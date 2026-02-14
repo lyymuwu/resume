@@ -1,0 +1,92 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Yayuan Li (李雅元)" [ref=e5] [cursor=pointer]:
+          - /url: /resume/
+        - button "Toggle navigation" [ref=e6]: Toggle navigation
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "about" [ref=e10] [cursor=pointer]:
+              - /url: /resume/
+          - listitem [ref=e11]:
+            - link "publications (current)" [ref=e12] [cursor=pointer]:
+              - /url: /resume/publications/
+          - listitem [ref=e13]:
+            - link "cv" [ref=e14] [cursor=pointer]:
+              - /url: /resume/cv/
+          - listitem [ref=e15]:
+            - button "submenus (current)" [ref=e16] [cursor=pointer]
+            - generic "submenus (current)" [ref=e17]:
+              - link "publications" [ref=e18] [cursor=pointer]:
+                - /url: /resume/publications/
+              - link "projects" [ref=e19] [cursor=pointer]:
+                - /url: /resume/projects/
+              - link "blog" [ref=e20] [cursor=pointer]:
+                - /url: /resume/blog/
+          - listitem [ref=e21]:
+            - button "Change theme" [ref=e22]
+    - progressbar [ref=e23]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "publications" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Selected and full publication list.
+      - article [ref=e29]:
+        - generic [ref=e30]:
+          - heading "2026" [level=2] [ref=e31]
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - generic [ref=e35]:
+                - generic [ref=e36]: "When Shared Knowledge Hurts: Spectral Over-Accumulation in Model Merging"
+                - generic [ref=e37]:
+                  - emphasis [ref=e38]: Yayuan Li
+                  - text: ", Zhen Peng, Jing Zhang, and 3 more authors"
+                - generic [ref=e39]:
+                  - emphasis [ref=e40]: arXiv preprint arXiv:2602.05536
+                  - text: ", 2026"
+                - generic [ref=e41]:
+                  - button "HTML" [ref=e42] [cursor=pointer]
+                  - button "PDF" [ref=e43] [cursor=pointer]
+          - heading "2025" [level=2] [ref=e44]
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - generic [ref=e48]:
+                - generic [ref=e49]: "Text and Image Are Mutually Beneficial: Enhancing Training-Free Few-Shot Classification with CLIP"
+                - generic [ref=e50]:
+                  - emphasis [ref=e51]: Yayuan Li
+                  - text: ", Jintao Guo, Lei Qi, and 2 more authors"
+                - generic [ref=e52]:
+                  - emphasis [ref=e53]: Proceedings of the AAAI Conference on Artificial Intelligence
+                  - text: ", Apr 2025"
+                - generic [ref=e54]:
+                  - button "HTML" [ref=e55] [cursor=pointer]
+                  - button "PDF" [ref=e56] [cursor=pointer]
+            - listitem [ref=e57]:
+              - generic [ref=e59]:
+                - generic [ref=e60]: "MAGIC: Achieving Superior Model Merging via Magnitude Calibration"
+                - generic [ref=e61]:
+                  - emphasis [ref=e62]: Yayuan Li
+                  - text: ", Jing Zhang, Jintao Guo, and 4 more authors"
+                - generic [ref=e63]:
+                  - emphasis [ref=e64]: arXiv preprint arXiv:2512.19320
+                  - text: ", Apr 2025"
+                - generic [ref=e65]:
+                  - button "HTML" [ref=e66] [cursor=pointer]
+                  - button "PDF" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e70]:
+                - generic [ref=e71]: Social jetlag elicits fatty liver via perturbed circulating prolactin rhythm-mediated circadian remodeling of hepatic lipid metabolism
+                - generic [ref=e72]: PZ Zhang, YH Shi, YX Guo, and 6 more authors
+                - generic [ref=e73]:
+                  - emphasis [ref=e74]: Military Medical Research
+                  - text: ", Apr 2025"
+  - contentinfo [ref=e75]:
+    - generic [ref=e76]:
+      - text: © Copyright 2026 Yayuan Li (李雅元). Powered by
+      - link "Jekyll" [ref=e77] [cursor=pointer]:
+        - /url: https://jekyllrb.com/
+      - text: with
+      - link "al-folio" [ref=e78] [cursor=pointer]:
+        - /url: https://github.com/alshedivat/al-folio
+      - text: theme.

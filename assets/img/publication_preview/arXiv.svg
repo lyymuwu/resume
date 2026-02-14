@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-label="arXiv logo">
+  <rect width="320" height="180" rx="16" fill="#ffffff"/>
+  <rect x="10" y="10" width="300" height="160" rx="12" fill="#fff7f7" stroke="#b31b1b" stroke-width="2"/>
+  <circle cx="62" cy="90" r="18" fill="#b31b1b"/>
+  <text x="92" y="104" font-size="56" font-family="Georgia, Times, serif" fill="#b31b1b">arXiv</text>
+</svg>

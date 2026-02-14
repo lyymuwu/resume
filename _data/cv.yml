@@ -1,0 +1,56 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Yayuan Li
+    - name: Position
+      value: Ph.D. Student (since 2025), School of Computer Science, Nanjing University
+    - name: Research Interests
+      value: Model Merging, Knowledge Transfer, Training-Free Adaptation, Multimodal Few-shot Learning
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computer Science
+      institution: Nanjing University, Nanjing, China
+      year: 2025 - Present
+      description:
+        - Advisor: Prof. Yinghuan Shi
+        - Focus: Efficient adaptation and composition of large models.
+    - title: M.S. in Computer Science
+      institution: Nanjing University, Nanjing, China
+      year: 2023 - 2025
+    - title: B.S.
+      institution: Beijing Jiaotong University, Beijing, China
+      year: 2019 - 2023
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "Text and Image Are Mutually Beneficial: Enhancing Training-Free Few-Shot Classification with CLIP"
+      institution: AAAI
+      year: 2025
+      description:
+        - "Authors: Yayuan Li, Jintao Guo, Lei Qi, Wenbin Li, Yinghuan Shi."
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - Outstanding Graduate Student, Nanjing University
+        - Excellence in Master's Assessment, Nanjing University
+    - year: 2023
+      items:
+        - Postgraduate Academic Scholarship (First Class)
+    - year: 2022
+      items:
+        - National Scholarship
+        - Finalist, MCM
+
+- title: Academic Interests
+  type: list
+  contents:
+    - Training-free adaptation for large models
+    - Recombining pretrained experts via model merging
+    - Cross-modal transfer in CLIP-style vision-language models

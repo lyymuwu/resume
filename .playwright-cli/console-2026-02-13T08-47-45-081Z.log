@@ -1,0 +1,13 @@
+[      24ms] [WARNING] [JavaScript Warning: "Loading failed for the <script> with source “http://127.0.0.1:4173/resume/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0”." {file: "http://127.0.0.1:4173/cv/" line: 70}] @ http://127.0.0.1:4173/cv/:70
+[      30ms] ReferenceError: initTheme is not defined
+    at  (http://127.0.0.1:4173/cv/:74:5)
+[      34ms] [WARNING] [JavaScript Warning: "Loading failed for the <script> with source “http://127.0.0.1:4173/resume/assets/js/bootstrap.bundle.min.js”." {file: "http://127.0.0.1:4173/cv/" line: 630}] @ http://127.0.0.1:4173/cv/:630
+[      43ms] [WARNING] [JavaScript Warning: "Loading failed for the <script> with source “http://127.0.0.1:4173/resume/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308”." {file: "http://127.0.0.1:4173/cv/" line: 656}] @ http://127.0.0.1:4173/cv/:656
+[      43ms] [WARNING] [JavaScript Warning: "Loading failed for the <script> with source “http://127.0.0.1:4173/resume/assets/js/bootstrap-toc.min.js?c82ff4de8b0955d6ff14f5b05eed7eb6”." {file: "http://127.0.0.1:4173/cv/" line: 660}] @ http://127.0.0.1:4173/cv/:660
+[      43ms] [WARNING] [JavaScript Warning: "Loading failed for the <script> with source “http://127.0.0.1:4173/resume/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126”." {file: "http://127.0.0.1:4173/cv/" line: 667}] @ http://127.0.0.1:4173/cv/:667
+[      48ms] [WARNING] [JavaScript Warning: "Loading failed for the <script> with source “http://127.0.0.1:4173/resume/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e”." {file: "http://127.0.0.1:4173/cv/" line: 668}] @ http://127.0.0.1:4173/cv/:668
+[      48ms] [WARNING] [JavaScript Warning: "Loading failed for the <script> with source “http://127.0.0.1:4173/resume/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f”." {file: "http://127.0.0.1:4173/cv/" line: 669}] @ http://127.0.0.1:4173/cv/:669
+[      48ms] [WARNING] [JavaScript Warning: "Loading failed for the <script> with source “http://127.0.0.1:4173/resume/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f”." {file: "http://127.0.0.1:4173/cv/" line: 672}] @ http://127.0.0.1:4173/cv/:672
+[      48ms] [WARNING] [JavaScript Warning: "Loading failed for the <script> with source “http://127.0.0.1:4173/resume/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17”." {file: "http://127.0.0.1:4173/cv/" line: 804}] @ http://127.0.0.1:4173/cv/:804
+[      49ms] ReferenceError: addBackToTop is not defined
+    at  (http://127.0.0.1:4173/cv/:806:5)

@@ -1,0 +1,193 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link "Yayuan Li (李雅元)" [ref=e4] [cursor=pointer]:
+          - /url: /resume/
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "about" [ref=e8] [cursor=pointer]:
+              - /url: /resume/
+          - listitem [ref=e9]:
+            - link "publications" [ref=e10] [cursor=pointer]:
+              - /url: /resume/publications/
+          - listitem [ref=e11]:
+            - link "cv (current)" [ref=e12] [cursor=pointer]:
+              - /url: /resume/cv/
+              - text: cv
+              - generic [ref=e13]: (current)
+          - listitem [ref=e14]:
+            - button "submenus" [ref=e15] [cursor=pointer]
+          - listitem [ref=e16]:
+            - button "" [ref=e17] [cursor=pointer]:
+              - generic [ref=e18]: 
+              - text:  
+    - progressbar [ref=e19]
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - navigation [ref=e23]:
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Basics" [ref=e26] [cursor=pointer]:
+              - /url: "#basics-1"
+          - listitem [ref=e27]:
+            - link "Volunteer" [ref=e28] [cursor=pointer]:
+              - /url: "#volunteer-1"
+          - listitem [ref=e29]:
+            - link "Education" [ref=e30] [cursor=pointer]:
+              - /url: "#education-1"
+          - listitem [ref=e31]:
+            - link "Awards" [ref=e32] [cursor=pointer]:
+              - /url: "#awards-1"
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "cv" [level=1] [ref=e36]
+          - paragraph [ref=e37]: Curriculum Vitae
+        - article [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - heading "Basics" [level=3] [ref=e41]
+              - table [ref=e43]:
+                - rowgroup [ref=e44]:
+                  - row "Name Li Yayuan" [ref=e45]:
+                    - cell "Name" [ref=e46]
+                    - cell "Li Yayuan" [ref=e47]
+                  - row "Label Master’s student" [ref=e48]:
+                    - cell "Label" [ref=e49]
+                    - cell "Master’s student" [ref=e50]
+                  - row "Email liyayuan@smail.nju.edu.cn" [ref=e51]:
+                    - cell "Email" [ref=e52]
+                    - cell "liyayuan@smail.nju.edu.cn" [ref=e53]:
+                      - link "liyayuan@smail.nju.edu.cn" [ref=e54] [cursor=pointer]:
+                        - /url: mailto:liyayuan@smail.nju.edu.cn
+                  - row "Url https://himuwu.com/resume/" [ref=e55]:
+                    - cell "Url" [ref=e56]
+                    - cell "https://himuwu.com/resume/" [ref=e57]:
+                      - link "https://himuwu.com/resume/" [ref=e58] [cursor=pointer]:
+                        - /url: https://himuwu.com/resume/
+                  - row "Summary Practitioner in the field of artificial intelligence." [ref=e59]:
+                    - cell "Summary" [ref=e60]
+                    - cell "Practitioner in the field of artificial intelligence." [ref=e61]
+            - generic [ref=e62]:
+              - heading "Volunteer" [level=3] [ref=e63]
+              - list [ref=e65]:
+                - listitem [ref=e66]:
+                  - generic [ref=e67]:
+                    - table [ref=e69]:
+                      - rowgroup [ref=e70]:
+                        - row "2024.01 - 2024.01" [ref=e71]:
+                          - cell "2024.01 - 2024.01" [ref=e72]:
+                            - generic [ref=e73]: 2024.01 - 2024.01
+                        - row " Nanjing, China" [ref=e74]:
+                          - cell " Nanjing, China" [ref=e75]:
+                            - paragraph [ref=e76]:
+                              - generic [ref=e77]: 
+                              - text: Nanjing, China
+                    - generic [ref=e78]:
+                      - heading "volunteer" [level=6] [ref=e79]:
+                        - link "volunteer" [ref=e80] [cursor=pointer]:
+                          - /url: https://academics.casad.cas.cn/xshd/kxyjsqylt/
+                      - heading "Academic Divisions of the Chinese Academy of Sciences" [level=6] [ref=e81]
+                      - heading "Contributed to maintaining order and equipment in the sub-venue, as well as coordinating transportation for participating experts." [level=6] [ref=e82]
+                      - list
+                - listitem [ref=e83]:
+                  - generic [ref=e84]:
+                    - table [ref=e86]:
+                      - rowgroup [ref=e87]:
+                        - row "2023.09 - 2023.09" [ref=e88]:
+                          - cell "2023.09 - 2023.09" [ref=e89]:
+                            - generic [ref=e90]: 2023.09 - 2023.09
+                        - row " Suzhou, China" [ref=e91]:
+                          - cell " Suzhou, China" [ref=e92]:
+                            - paragraph [ref=e93]:
+                              - generic [ref=e94]: 
+                              - text: Suzhou, China
+                    - generic [ref=e95]:
+                      - heading "volunteer" [level=6] [ref=e96]:
+                        - link "volunteer" [ref=e97] [cursor=pointer]:
+                          - /url: https://www.nju.edu.cn/info/3461/341221.htm
+                      - heading "Nanjing University" [level=6] [ref=e98]
+                      - heading "Contributed to maintaining on-site order." [level=6] [ref=e99]
+                      - list
+                - listitem [ref=e100]:
+                  - generic [ref=e101]:
+                    - table [ref=e103]:
+                      - rowgroup [ref=e104]:
+                        - row "2023.09 - 2023.09" [ref=e105]:
+                          - cell "2023.09 - 2023.09" [ref=e106]:
+                            - generic [ref=e107]: 2023.09 - 2023.09
+                        - row " Nanjing, China" [ref=e108]:
+                          - cell " Nanjing, China" [ref=e109]:
+                            - paragraph [ref=e110]:
+                              - generic [ref=e111]: 
+                              - text: Nanjing, China
+                    - generic [ref=e112]:
+                      - heading "volunteer" [level=6] [ref=e113]:
+                        - link "volunteer" [ref=e114] [cursor=pointer]:
+                          - /url: https://ccf.org.cn/BigData2023
+                      - heading "CCF Big Data" [level=6] [ref=e115]
+                      - heading "Contributed to maintaining on-site order and coordinating transportation for participating experts." [level=6] [ref=e116]
+                      - list
+            - generic [ref=e117]:
+              - heading "Education" [level=3] [ref=e118]
+              - list [ref=e120]:
+                - listitem [ref=e121]:
+                  - generic [ref=e122]:
+                    - table [ref=e124]:
+                      - rowgroup [ref=e125]:
+                        - row "2023.09 - 2026.06" [ref=e126]:
+                          - cell "2023.09 - 2026.06" [ref=e127]:
+                            - generic [ref=e128]: 2023.09 - 2026.06
+                        - row " Nanjing, China" [ref=e129]:
+                          - cell " Nanjing, China" [ref=e130]:
+                            - paragraph [ref=e131]:
+                              - generic [ref=e132]: 
+                              - text: Nanjing, China
+                    - generic [ref=e133]:
+                      - heading "Master" [level=6] [ref=e134]:
+                        - link "Master" [ref=e135] [cursor=pointer]:
+                          - /url: https://www.nju.edu.cn/
+                      - heading "Nanjing University, Nanjing, China" [level=6] [ref=e136]
+                      - heading "Computer Science" [level=6] [ref=e137]
+                      - list
+                - listitem [ref=e138]:
+                  - generic [ref=e139]:
+                    - table [ref=e141]:
+                      - rowgroup [ref=e142]:
+                        - row "2019.09 - 2023.06" [ref=e143]:
+                          - cell "2019.09 - 2023.06" [ref=e144]:
+                            - generic [ref=e145]: 2019.09 - 2023.06
+                        - row " Beijing, China" [ref=e146]:
+                          - cell " Beijing, China" [ref=e147]:
+                            - paragraph [ref=e148]:
+                              - generic [ref=e149]: 
+                              - text: Beijing, China
+                    - generic [ref=e150]:
+                      - heading "Bachelor" [level=6] [ref=e151]:
+                        - link "Bachelor" [ref=e152] [cursor=pointer]:
+                          - /url: https://www.bjtu.edu.cn/
+                      - heading "Beijing Jiaotong University, Beijing, China" [level=6] [ref=e153]
+                      - heading "Computer Science" [level=6] [ref=e154]
+                      - list
+            - generic [ref=e155]:
+              - heading "Awards" [level=3] [ref=e156]
+              - list [ref=e158]:
+                - listitem [ref=e159]:
+                  - generic [ref=e160]:
+                    - generic [ref=e162]: 2022.10.01
+                    - generic [ref=e163]:
+                      - heading "National Scholarship" [level=6] [ref=e164]:
+                        - link "National Scholarship" [ref=e165] [cursor=pointer]:
+                          - /url: http://www.moe.gov.cn/jyb_xwfb/xw_zt/moe_357/jyzt_2015nztzl/2015_zt06/15zt06_gxzzzc/gxzz_bzks/201508/t20150810_199202.html
+                      - heading "Ministry of Education of the People's Republic of China" [level=6] [ref=e166]
+                      - heading "The National Scholarship is awarded to outstanding students in China for their academic excellence." [level=6] [ref=e167]
+  - contentinfo [ref=e168]:
+    - generic [ref=e169]:
+      - text: © Copyright 2026 Yayuan Li (李雅元). Powered by
+      - link "Jekyll" [ref=e170] [cursor=pointer]:
+        - /url: https://jekyllrb.com/
+      - text: with
+      - link "al-folio" [ref=e171] [cursor=pointer]:
+        - /url: https://github.com/alshedivat/al-folio
+      - text: theme.
+  - img [ref=e173] [cursor=pointer]
