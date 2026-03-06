@@ -2,6 +2,55 @@
  * CV shared styles
  *****************************/
 
+.cv .card {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+  padding: 1rem 1.1rem !important;
+}
+
+.cv .card + .card {
+  margin-top: 1rem !important;
+}
+
+.cv .card-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  border-left: 4px solid var(--global-theme-color);
+  padding-left: 0.55rem;
+  margin-bottom: 0.85rem;
+}
+
+/* Prevent homepage terminal prefix styles (">_") from affecting CV section headers */
+.cv .card h3.card-title::before {
+  content: none !important;
+}
+
+.cv .card h3.card-title {
+  padding-left: 0.55rem !important;
+}
+
+.cv .items li {
+  margin-bottom: 0.55rem;
+}
+
+.cv .item {
+  line-height: 1.45;
+  display: block;
+}
+
+.cv .title {
+  line-height: 1.35;
+}
+
+.cv .badge.danger-color-dark {
+  background: var(--global-theme-color) !important;
+  box-shadow: 0 3px 9px rgba(15, 118, 110, 0.28);
+  border-radius: 8px;
+  letter-spacing: 0.02em;
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }
@@ -10,17 +59,39 @@ table.table-cv {
   background-color: transparent !important;
 }
 
+.cv td.text,
+.cv .item,
+.cv .subitem {
+  line-height: 1.55;
+}
+
+.cv .institution {
+  margin-bottom: 0.6rem !important;
+}
+
+.cv .items {
+  margin-top: 0.2rem;
+}
+
+.cv .cv-sub {
+  display: block;
+  margin-top: 0.14rem;
+  color: var(--global-text-color-light);
+  font-size: 0.93em;
+}
+
 a.btncv {
-  color: var(--global-text-color) !important;
-  border: 1px solid var(--global-text-color) !important;
-  border-radius: 0.125rem;
+  color: var(--global-theme-color) !important;
+  border: 1px solid rgba(15, 118, 110, 0.35) !important;
+  background: rgba(15, 118, 110, 0.06);
+  border-radius: 0.45rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   text-decoration: none;
-  font-weight: 400;
-  font-size: 0.7rem;
+  font-weight: 600;
+  font-size: 0.72rem;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -28,7 +99,8 @@ a.btncv {
 }
 
 a.btncv:hover {
-  color: var(--global-theme-color) !important;
+  color: #fff !important;
+  background: var(--global-theme-color);
   border-color: var(--global-theme-color) !important;
   text-decoration: none !important;
 }

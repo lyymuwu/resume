@@ -1,56 +1,95 @@
-- title: General Information
+- title: General Information | 基本信息
   type: map
   contents:
-    - name: Full Name
+    - name: Full Name | 姓名
       value: Yayuan Li
-    - name: Position
-      value: Ph.D. Student (since 2025), School of Computer Science, Nanjing University
-    - name: Research Interests
-      value: Model Merging, Knowledge Transfer, Training-Free Adaptation, Multimodal Few-shot Learning
+    - name: Position | 身份
+      value: 'Ph.D. Student (since 2025), School of Computer Science, Nanjing University<br><span class="cv-sub">南京大学计算机学院博士研究生（2025级）</span>'
+    - name: Email | 邮箱
+      value: liyayuan@smail.nju.edu.cn
+    - name: Homepage | 主页
+      value: https://himuwu.com/resume/
+    - name: GitHub
+      value: https://github.com/lyymuwu
+    - name: Google Scholar | 谷歌学术
+      value: https://scholar.google.com/citations?user=5C-40K4AAAAJ
+    - name: Research Interests | 研究方向
+      value: 'Model Merging, Knowledge Transfer, Training-Free Adaptation, Multimodal Few-shot Learning<br><span class="cv-sub">模型融合、知识迁移、免训练适配、多模态小样本学习</span>'
 
-- title: Education
+- title: Education | 教育背景
   type: time_table
   contents:
     - title: Ph.D. in Computer Science
-      institution: Nanjing University, Nanjing, China
+      institution: Nanjing University
       year: 2025 - Present
       description:
-        - Advisor: Prof. Yinghuan Shi
-        - Focus: Efficient adaptation and composition of large models.
+        - 'Advisor: Prof. Yinghuan Shi<br><span class="cv-sub">导师：史颖欢教授</span>'
+        - 'Focus: Efficient adaptation and composition of large models.<br><span class="cv-sub">研究重点：大模型高效适配与能力组合</span>'
     - title: M.S. in Computer Science
-      institution: Nanjing University, Nanjing, China
+      institution: Nanjing University
       year: 2023 - 2025
-    - title: B.S.
-      institution: Beijing Jiaotong University, Beijing, China
+      description:
+        - 'M.S. in Computer Science, Nanjing University<br><span class="cv-sub">南京大学计算机科学硕士</span>'
+    - title: B.S. in Computer Science
+      institution: Beijing Jiaotong University
       year: 2019 - 2023
+      description:
+        - 'B.S. in Computer Science, Beijing Jiaotong University<br><span class="cv-sub">北京交通大学计算机科学学士</span>'
 
-- title: Publications
+- title: Publications | 代表论文
   type: time_table
   contents:
     - title: "Text and Image Are Mutually Beneficial: Enhancing Training-Free Few-Shot Classification with CLIP"
-      institution: AAAI
+      institution: AAAI (CCF-A)
       year: 2025
       description:
-        - "Authors: Yayuan Li, Jintao Guo, Lei Qi, Wenbin Li, Yinghuan Shi."
+        - 'Authors: Yayuan Li, Jintao Guo, Lei Qi, Wenbin Li, Yinghuan Shi.<br><span class="cv-sub">作者：李雅元，郭金涛，齐磊，李文斌，史颖欢。</span>'
+    - title: "Social jetlag elicits fatty liver via perturbed circulating prolactin rhythm-mediated circadian remodeling of hepatic lipid metabolism"
+      institution: Military Medical Research (SCI Q1, IF 22.9)
+      year: 2025
+      description:
+        - 'Co-first author.<br><span class="cv-sub">共同第一作者。</span>'
+    - title: "MAGIC: Achieving Superior Model Merging via Magnitude Calibration"
+      institution: arXiv
+      year: 2025
+      description:
+        - 'Authors: Yayuan Li, Jian Zhang, Jintao Guo, et al.<br><span class="cv-sub">作者：李雅元，张剑，郭金涛等。</span>'
+    - title: "When Shared Knowledge Hurts: Spectral Over-Accumulation in Model Merging"
+      institution: arXiv
+      year: 2026
+      description:
+        - 'Authors: Yayuan Li, Ze Peng, Jian Zhang, et al.<br><span class="cv-sub">作者：李雅元，彭泽，张剑等。</span>'
 
-- title: Honors and Awards
+- title: Honors and Awards | 荣誉与奖励
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - 'Jiangsu Financial Leasing Scholarship<br><span class="cv-sub">江苏金融租赁奖学金</span>'
+        - 'Outstanding Youth League Cadre, Nanjing University<br><span class="cv-sub">南京大学优秀共青团干部</span>'
+        - 'Co-first-author paper accepted by Military Medical Research (SCI Q1, IF 22.9)<br><span class="cv-sub">与鼓楼医院合作论文被 Military Medical Research 录用（共同一作）</span>'
     - year: 2024
       items:
-        - Outstanding Graduate Student, Nanjing University
-        - Excellence in Master's Assessment, Nanjing University
+        - 'Excellence in Master''s Assessment, Nanjing University<br><span class="cv-sub">南京大学硕士中期考核卓越</span>'
+        - 'Outstanding Youth League Member, Nanjing University<br><span class="cv-sub">南京大学优秀共青团员</span>'
     - year: 2023
       items:
-        - Postgraduate Academic Scholarship (First Class)
+        - 'Postgraduate Academic Scholarship (First Class)<br><span class="cv-sub">南京大学研究生学业一等奖学金</span>'
+        - 'Outstanding Graduate, Beijing Municipality<br><span class="cv-sub">北京市优秀毕业生</span>'
+        - 'Outstanding Graduate, Beijing Jiaotong University<br><span class="cv-sub">北京交通大学优秀毕业生</span>'
     - year: 2022
       items:
-        - National Scholarship
-        - Finalist, MCM
+        - 'National Scholarship<br><span class="cv-sub">国家奖学金</span>'
+        - 'Finalist, MCM<br><span class="cv-sub">美国大学生数学建模竞赛 Finalist</span>'
+        - 'MathorCup National Third Prize<br><span class="cv-sub">MathorCup 高校数学建模挑战赛全国三等奖</span>'
 
-- title: Academic Interests
-  type: list
+- title: Projects | 项目经历
+  type: time_table
   contents:
-    - Training-free adaptation for large models
-    - Recombining pretrained experts via model merging
-    - Cross-modal transfer in CLIP-style vision-language models
+    - title: "ChatDRG: DRG-oriented medical insurance QA large model (Core Contributor)"
+      institution: Smart medical insurance domain project
+      year: 2023.03 - 2023.08
+      description:
+        - 'Built a vertical QA system for DRG terminology interpretation, regional medical insurance settlement data query, multi-turn dialogue, and streaming response.<br><span class="cv-sub">面向医保场景构建 DRG 垂直问答系统，支持术语释义、地区结算查询、多轮对话与流式响应。</span>'
+        - 'Led data and algorithm tasks: automatic Excel-query dataset generation, terminology cleaning/expansion, low-quality sample feedback training, and backend table-query refactor.<br><span class="cv-sub">负责数据与算法核心工作：自动化数据集生成、术语清洗扩充、低质量样本回灌训练与查询后端重构。</span>'
+        - 'Iterated model/back-end solutions (including ChatGLM/CPM-BEE/Aquila exploration), and improved fuzzy search, result export, and query robustness in real-world use.<br><span class="cv-sub">迭代模型与后端方案（含 ChatGLM/CPM-BEE/Aquila 等探索），并增强模糊检索、结果导出与真实场景鲁棒性。</span>'
