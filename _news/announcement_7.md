@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:sparkles: Our model merging work has been accepted by ICML 2026. See you in Seoul, Korea! 大家韩国首尔见~
+:sparkles: Our model merging work has been accepted by ICML 2026. See you all in Seoul, Korea!
