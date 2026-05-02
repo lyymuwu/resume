@@ -55,7 +55,7 @@
       description:
         - 'Authors: Yayuan Li, Jian Zhang, Jintao Guo, et al.<br><span class="cv-sub">作者：李雅元，张剑，郭金涛等。</span>'
     - title: "When Shared Knowledge Hurts: Spectral Over-Accumulation in Model Merging"
-      institution: arXiv
+      institution: ICML 2026
       year: 2026
       description:
         - 'Authors: Yayuan Li, Ze Peng, Jian Zhang, et al.<br><span class="cv-sub">作者：李雅元，彭泽，张剑等。</span>'
